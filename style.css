@@ -1,3 +1,7 @@
+body{
+    background-color: #d3d3d4;
+}
+
 .header{
     background-color: #bebeeb;
     font-family: sans-serif;
@@ -8,26 +12,34 @@
     margin-top: 30px;
     margin-left: 130px;
     margin-right: 130px;
+    margin-bottom: 0px;
     padding: 5px;
     
 }
 
 .about{
     color: #2c2b2b;
+    background-color: #d2d2f5;
     text-align: center;
     font-family: sans-serif;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 35px;
+
 }
 
 .ttl{
-    background-color: #a2a2a8;
+    background-color: #bebeeb;
     font-family: sans-serif;
     color: #030353;
     font-size: 35px;
     margin-top: 20px;
     margin-left: 130px;
     margin-right: 130px;
+    margin-top: 35px;
     border-bottom: 2px solid #030353;
     padding: 5px;
 }
@@ -38,7 +50,7 @@
     margin-left: 130px;
     margin-right: 130px;
     font-size: 15px;
-    padding-bottom: 17.5px;
+    padding-bottom: 0px;
 
 }
 
@@ -76,6 +88,34 @@ margin-left: 110px;
 margin-right: 130px;
 font-family: sans-serif;
 color: #2c2b2b;
+}
+
+.menu{
+text-align: right;
+margin-right: 130px;
+color: #030353;
+}
+
+.menu li{
+list-style: none;
+display: inline-block;
+padding: 0px;
+
+}
+
+.menu a{
+    padding: 16px;
+    background-color: #a2a2a8;
+    display: inline;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #030353;
+
+}
+
+.menu a:hover{
+    background-color: #bebeeb;
+    color: #030353;
 }
 
 @media (max-width: 768px) {
